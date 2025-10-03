@@ -1,0 +1,1 @@
+const memoizedValue = useMemo(() => expensiveCalculation(a, b), [a, b]);

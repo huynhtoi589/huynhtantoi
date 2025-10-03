@@ -1,0 +1,28 @@
+.header{
+    background: white;
+    height: 60px;
+    border: 1px solid;
+
+}
+.header ul{
+  display: flex;  
+  gap: 20px;
+  justify-content: center;
+
+}
+.header ul li{
+    list-style: none;
+    background: pink;
+    padding:5px;
+  
+    
+}
+.header ul li a {
+  text-decoration: none; /* bỏ gạch chân */
+  color: blue;
+}
+
+.header ul li a.active {
+  color: red;
+  text-decoration: none;
+}

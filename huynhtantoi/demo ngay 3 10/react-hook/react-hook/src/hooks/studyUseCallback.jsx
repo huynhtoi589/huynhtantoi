@@ -1,0 +1,1 @@
+const memoizedFn = useCallback(() => doSomething(count), [count]);
