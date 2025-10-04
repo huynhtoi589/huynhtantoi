@@ -8,7 +8,7 @@ const showName1 =(name) =>{
 
 // arrow function giữ this từ cha
 function myFunc(){
-    this.name = "dư",
+    this.name = "tới",
     setTimeout(() => { 
         console.log(this.name)
      },1000)
@@ -19,7 +19,7 @@ const db = new myFunc()
 
 // arrow function k giữ this từ cha
 function myFunc1(){
-    this.name = "dư",
+    this.name = "tới",
     setTimeout(function(){
         console.log("name",this.name)
     },1000)
